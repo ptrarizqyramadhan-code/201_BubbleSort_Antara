@@ -55,3 +55,11 @@ void BubbleSort() {
         }
     }
 }
+
+int main()
+{
+    input();        // memanggil input()
+    BubbleSort();   // memanggil BubbleSort()
+    display();      // memanggil display()
+    return 0;
+}
